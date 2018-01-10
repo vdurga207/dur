@@ -1,0 +1,10 @@
+<suite name="automation">
+<test name="adm">
+<Parameter name="strun" value="orange"/>
+<classes>
+<class name="testngEx.ParameterizedTest1"/>
+</classes>
+
+
+</test>
+</suite>

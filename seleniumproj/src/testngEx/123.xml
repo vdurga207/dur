@@ -1,0 +1,19 @@
+<suite name="hrm">
+
+
+<test name="pim">
+<classes>
+<class name="testngEx.Ex1"/>
+<class name="testngEx.Ex2"/>
+</classes>
+</test>
+
+<test name="admin">
+<packages>
+<package name="testngEx"/>
+</packages>
+</test>
+
+
+
+</suite>

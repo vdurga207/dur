@@ -1,49 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Test method1]]>
-    </line>
-    <line>
-      <![CDATA[Test method2]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51" started-at="2017-12-29T12:10:50Z" finished-at="2017-12-29T12:10:50Z">
+  <suite name="automation" duration-ms="23" started-at="2018-01-24T09:43:15Z" finished-at="2018-01-24T09:43:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51" started-at="2017-12-29T12:10:50Z" finished-at="2017-12-29T12:10:50Z">
-      <class name="testngEx.Ex2">
-        <test-method status="PASS" signature="method1()[pri:0, instance:testngEx.Ex2@144fc21]" name="method1" is-config="true" duration-ms="18" started-at="2017-12-29T17:40:50Z" finished-at="2017-12-29T17:40:50Z">
+    <test name="adm" duration-ms="23" started-at="2018-01-24T09:43:15Z" finished-at="2018-01-24T09:43:15Z">
+      <class name="testngEx.ParameterizedTest1">
+        <test-method status="FAIL" signature="ParameterTest(java.lang.String)[pri:0, instance:testngEx.ParameterizedTest1@146e1f4]" name="ParameterTest" duration-ms="0" started-at="2018-01-24T15:13:15Z" finished-at="2018-01-24T15:13:15Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'strun' is required by @Test on method ParameterTest but has not been marked @Optional or defined
+in C:\Users\user\git\dur\seleniumproj\src\testngEx\parameter.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'strun' is required by @Test on method ParameterTest but has not been marked @Optional or defined
+in C:\Users\user\git\dur\seleniumproj\src\testngEx\parameter.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method3()[pri:0, instance:testngEx.Ex2@144fc21]" name="method3" duration-ms="7" started-at="2017-12-29T17:40:50Z" finished-at="2017-12-29T17:40:50Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test method1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- method3 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:testngEx.Ex2@144fc21]" name="method2" is-config="true" duration-ms="0" started-at="2017-12-29T17:40:50Z" finished-at="2017-12-29T17:40:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method1()[pri:0, instance:testngEx.Ex2@144fc21]" name="method1" is-config="true" duration-ms="0" started-at="2017-12-29T17:40:50Z" finished-at="2017-12-29T17:40:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method4()[pri:0, instance:testngEx.Ex2@144fc21]" name="method4" duration-ms="1" started-at="2017-12-29T17:40:50Z" finished-at="2017-12-29T17:40:50Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test method2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- method4 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:testngEx.Ex2@144fc21]" name="method2" is-config="true" duration-ms="0" started-at="2017-12-29T17:40:50Z" finished-at="2017-12-29T17:40:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-      </class> <!-- testngEx.Ex2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- ParameterTest -->
+      </class> <!-- testngEx.ParameterizedTest1 -->
+    </test> <!-- adm -->
+  </suite> <!-- automation -->
 </testng-results>

@@ -8,6 +8,6 @@ public class ParameterizedTest1 {
 @Parameters("strun")
 public void ParameterTest(String strun)
 {
-	System.out.println("parameterized value is:"+strun);
+	System.out.println("parameterized value is:jgjgikkkhkh"+strun);
 }
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25430" started-at="2018-01-10T06:03:50Z" finished-at="2018-01-10T06:04:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25430" started-at="2018-01-10T06:03:50Z" finished-at="2018-01-10T06:04:15Z">
+      <class name="TestScripts.Tc3">
+        <test-method status="PASS" signature="EditEmp()[pri:0, instance:TestScripts.Tc3@17fd0e6]" name="EditEmp" duration-ms="25401" started-at="2018-01-10T11:33:50Z" finished-at="2018-01-10T11:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditEmp -->
+      </class> <!-- TestScripts.Tc3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
